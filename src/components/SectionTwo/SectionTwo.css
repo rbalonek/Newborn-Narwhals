@@ -1,0 +1,17 @@
+.SectionTwo__container {
+  width: 100%;
+  display: flex;
+  position: relative;
+  top: 100px;
+  justify-content: space-around;
+}
+.pic_two {
+  height: 300px;
+}
+.sectionTwo__text {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}

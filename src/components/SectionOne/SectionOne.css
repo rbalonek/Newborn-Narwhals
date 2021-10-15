@@ -1,0 +1,16 @@
+.sectionOne__container {
+  width: 100%;
+  display: flex;
+  position: relative;
+  top: 100px;
+  justify-content: space-around;
+}
+.pic_one {
+  height: 300px;
+}
+.sectionOne__text {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  text-align: center;
+}
