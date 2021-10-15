@@ -3,3 +3,7 @@
   width: 300px;
   justify-content: space-between;
 }
+a {
+  text-decoration: none;
+  color: white;
+}

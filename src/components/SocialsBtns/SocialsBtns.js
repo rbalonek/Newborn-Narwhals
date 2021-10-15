@@ -5,11 +5,30 @@ import Twitter from "../../assets/Twitter.png";
 import Discord from "../../assets/discord.jpeg";
 
 export default function SocialsBtns() {
+  const buttonClick = (e) => {
+    e.preventDefault();
+    window.open("https://newborn-narwhals.netlify.app/");
+  };
+
   return (
     <div className="btns__container">
-      <img className="btns__icon" alt="Twitter" src={Twitter} />
-      <img className="btns__icon" alt="Discord" src={Discord} />
-      <button className="btn">Buy</button>
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://twitter.com/newbornnarwhals"
+      >
+        <img className="btns__icon" alt="Twitter" src={Twitter} />
+      </a>
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://discord.com/invite/5dgtRRmSnh"
+      >
+        <img className="btns__icon" alt="Discord" src={Discord} />
+      </a>
+      <button onClick={buttonClick} className="btn">
+        Buy
+      </button>
     </div>
   );
 }

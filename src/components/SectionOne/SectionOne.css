@@ -11,6 +11,21 @@
 .sectionOne__text {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   text-align: center;
+}
+.digital-art {
+  position: relative;
+  bottom: 40px;
+  color: #7677e9;
+}
+
+@media (max-width: 550px) {
+  .pic_one {
+    height: 100px;
+  }
+  .sectionOne__container {
+    flex-direction: column;
+    align-items: center;
+    top: 20px;
+  }
 }
