@@ -7,6 +7,7 @@
 }
 .pic_two {
   height: 300px;
+  transform: scaleX(-1);
 }
 .sectionTwo__text {
   width: 500px;
