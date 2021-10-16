@@ -13,7 +13,7 @@
 }
 .btns__icon:hover {
   background-color: black;
-  opacity: 50%;
+  opacity: 80%;
   transition: ease-in-out all;
 }
 .btn {
@@ -36,7 +36,7 @@
 }
 .btn:hover {
   background-color: black;
-  opacity: 50%;
+  opacity: 90%;
 }
 
 @media (max-width: 850px) {
