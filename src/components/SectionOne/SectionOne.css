@@ -49,13 +49,32 @@
 }
 
 @media (max-width: 640px) {
+  .sectionOne__center-keeper {
+    width: 100%;
+  }
   .pic_one {
-    height: 200px;
+    height: 250px;
   }
   .sectionOne__container {
     flex-direction: column;
     align-items: center;
     top: 20px;
+  }
+  .sectionOne-collectable {
+    font-size: 45px;
+  }
+  .digital-art {
+    font-size: 45px;
+    position: relative;
+    bottom: 70px;
+    color: #6963ee;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+  }
+  .sectionOne__text-nfts {
+    position: relative;
+    bottom: 100px;
+    font-size: 25px;
   }
 }
 
@@ -78,5 +97,11 @@
     position: relative;
     bottom: 120px;
     font-size: 25px;
+  }
+  .sectionOne-collectable {
+    font-size: 50px;
+  }
+  .digital-art {
+    font-size: 50px;
   }
 }

@@ -62,13 +62,13 @@
     font-size: 15px;
   }
 }
-/* @media (max-width: 640px) {
-  .sectionTwo__text {
-    width: 300px;
-    font-size: 15px;
-  }
-} */
 @media (max-width: 640px) {
+  .sectionTwo__text {
+    width: 250px;
+    font-size: 12px;
+  }
+}
+@media (max-width: 570px) {
   .SectionTwo__center-keeper {
     width: 100%;
     flex-direction: column-reverse;
