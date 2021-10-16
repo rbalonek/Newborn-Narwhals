@@ -26,7 +26,7 @@ export default function SocialsBtns() {
       >
         <img className="btns__icon" alt="Discord" src={Discord} />
       </a>
-      <button onClick={buttonClick} className="btn">
+      <button onClick={buttonClick} className="btn buy-btn">
         Buy
       </button>
     </div>

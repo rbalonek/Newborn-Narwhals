@@ -1,0 +1,100 @@
+.buttonSection__container {
+  width: 100%;
+  height: 200px;
+  background-color: white;
+  text-align: -webkit-center;
+  padding-top: 100px;
+  border-bottom: solid 2px black;
+}
+.buttons__holder {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  align-items: center;
+}
+.twit-dis__btns {
+  display: flex;
+}
+
+.btn {
+  display: inline-block;
+  width: 140px;
+  font-weight: 400;
+  line-height: 1.5;
+  /* color: #212529; */
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  border-radius: 0.3rem;
+  font-family: "Poppins", sans-serif;
+}
+.discord-btn {
+  background-color: #8c9eff;
+  border-bottom: solid 4px #5a6ac3;
+  color: #fff;
+  /* width: 150px;
+  height: 100px; */
+  margin: 20px;
+}
+.discord-btn:hover {
+  background-color: #7183ed;
+  border-bottom: solid 4px #5a6ac3;
+  color: #fff;
+  /* width: 150px;
+  height: 100px; */
+  margin: 20px;
+}
+.discord-dtn-img {
+  /* height: 25px; */
+  width: 22px;
+  position: relative;
+  right: 5px;
+  top: 5px;
+}
+.twitter-btn {
+  background-color: #3fa2eb;
+  border-bottom: solid 4px #4d5dbb;
+  color: #fff;
+  margin: 20px;
+}
+.twitter-btn:hover {
+  background-color: #2691df;
+  border-bottom: solid 4px #4d5dbb;
+  color: #fff;
+  margin: 20px;
+}
+.twitter-dtn-img {
+  /* height: 25px; */
+  width: 25px;
+  position: relative;
+  right: 10px;
+  top: 5px;
+}
+
+@media (max-width: 400px) {
+  .buttons__holder {
+    width: 300px;
+    position: relative;
+    bottom: 50px;
+  }
+  .twit-dis__btns {
+    flex-direction: column;
+  }
+  .discord-btn {
+    position: relative;
+    bottom: 20px;
+  }
+}

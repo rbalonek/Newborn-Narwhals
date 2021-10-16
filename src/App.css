@@ -1,8 +1,8 @@
 .App {
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  /* background-color: #2a2a72;
-  background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%); */
+  background-color: #2a2a72;
+  background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
   min-height: 100vh;
   /* height: 840px; */
 }

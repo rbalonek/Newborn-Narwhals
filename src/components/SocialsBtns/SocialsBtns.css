@@ -16,29 +16,35 @@
   opacity: 80%;
   transition: ease-in-out all;
 } */
-.btn {
+/* .btn {
   height: 50px;
   width: 100px;
   border-radius: 10%;
-  /* background-color: blue; */
   color: white;
   font-size: x-large;
   font-weight: 800;
   cursor: pointer;
-  /* background-color: #485461;
-  background-image: linear-gradient(315deg, #485461 0%, #28313b 74%); */
-  /* background-color: #6d17cb; */
-
   background-color: #7677e9;
 
   background-color: #3f0d12;
   background-image: linear-gradient(315deg, #3f0d12 0%, #a71d31 84%);
-}
+} */
 /* .btn:hover {
   background-color: black;
   opacity: 90%;
 } */
-
+.buy-btn {
+  background-color: #3f0d12;
+  background-image: linear-gradient(315deg, #3f0d12 0%, #a71d31 84%);
+  border-bottom: solid 4px black;
+  color: #fff;
+}
+.buy-btn:hover {
+  background-color: #1c0406;
+  background-image: linear-gradient(315deg, #1d0709 0%, #a71d31 98%);
+  /* border-bottom: solid 4px #5a6ac3; */
+  color: #fff;
+}
 @media (max-width: 850px) {
   .btns__container {
     width: 100%;
