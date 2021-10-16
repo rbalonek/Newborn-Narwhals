@@ -13,6 +13,7 @@
 }
 @media (max-width: 550px) {
   .App {
-    height: 900px;
+    /* height: 1300px; */
+    height: 100%;
   }
 }
