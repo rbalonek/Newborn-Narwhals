@@ -1,8 +1,8 @@
 import React from "react";
 import "./SocialsBtns.css";
 
-import Twitter from "../../assets/Twitter.png";
-import Discord from "../../assets/discord.jpeg";
+import Twitter from "../../assets/twitterCOROP.png";
+import Discord from "../../assets/DiscordCrop.png";
 
 export default function SocialsBtns() {
   const buttonClick = (e) => {
