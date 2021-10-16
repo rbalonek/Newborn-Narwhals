@@ -11,11 +11,11 @@
   border-radius: 7%;
   margin-right: 30px;
 }
-.btns__icon:hover {
+/* .btns__icon:hover {
   background-color: black;
   opacity: 80%;
   transition: ease-in-out all;
-}
+} */
 .btn {
   height: 50px;
   width: 100px;
@@ -34,10 +34,10 @@
   background-color: #3f0d12;
   background-image: linear-gradient(315deg, #3f0d12 0%, #a71d31 84%);
 }
-.btn:hover {
+/* .btn:hover {
   background-color: black;
   opacity: 90%;
-}
+} */
 
 @media (max-width: 850px) {
   .btns__container {
