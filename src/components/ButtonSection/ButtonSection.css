@@ -1,9 +1,9 @@
 .buttonSection__container {
   width: 100%;
-  height: 200px;
+  height: 150px;
   background-color: white;
   text-align: -webkit-center;
-  padding-top: 100px;
+  padding-top: 20px;
   border-bottom: solid 2px black;
 }
 .buttons__holder {
@@ -85,6 +85,10 @@
 }
 
 @media (max-width: 400px) {
+  .buttonSection__container {
+    height: 200px;
+    padding-top: 100px;
+  }
   .buttons__holder {
     width: 300px;
     position: relative;
