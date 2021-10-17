@@ -1,8 +1,8 @@
 import React from "react";
 import "./SocialsBtns.css";
 
-import Twitter from "../../assets/twitterCOROP.png";
-import Discord from "../../assets/DiscordCrop.png";
+import Twitter from "../../assets/TwitterIcon.png";
+import Discord from "../../assets/DiscordImgBtn.jpg";
 
 export default function SocialsBtns() {
   const buttonClick = (e) => {
@@ -17,14 +17,18 @@ export default function SocialsBtns() {
         rel="noopener noreferrer"
         href="https://twitter.com/newbornnarwhals"
       >
-        <img className="btns__icon" alt="Twitter" src={Twitter} />
+        <button className="icon_btn twitIconBtn">
+          <img className="twitIconImg" alt="twitter" src={Twitter} />
+        </button>
       </a>
       <a
         target="_blank"
         rel="noopener noreferrer"
         href="https://discord.com/invite/5dgtRRmSnh"
       >
-        <img className="btns__icon" alt="Discord" src={Discord} />
+        <button className="icon_btn discIconBtn">
+          <img className="discIconImg" alt="twitter" src={Discord} />
+        </button>
       </a>
       <button onClick={buttonClick} className="btn buy-btn">
         Buy

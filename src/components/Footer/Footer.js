@@ -4,11 +4,14 @@ import "./Footer.css";
 export default function Footer() {
   return (
     <div className="footer__container">
-      <img
-        className="footer__img"
-        alt="logo"
-        src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1634423167/Newborn-Narwhals/pic_3_qkokzj.png"
-      />
+      <div className="footer__logo-holder">
+        <h4 className="powered_by">POWERED BY</h4>
+        <img
+          className="footer__img"
+          alt="logo"
+          src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1634423167/Newborn-Narwhals/pic_3_qkokzj.png"
+        />
+      </div>
 
       <div className="footer__nav-holder">
         <div className="footer__nav">

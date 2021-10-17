@@ -5,9 +5,15 @@
   display: flex;
   align-items: center;
 }
+.footer__logo-holder {
+  text-align: end;
+}
 .footer__img {
   /* width: 200px; */
   height: 50px;
+}
+.powered_by {
+  color: #524c3f;
 }
 .footer__nav-holder {
   width: 100%;
@@ -32,5 +38,9 @@
 @media (max-width: 400px) {
   .footer__container {
     flex-direction: column;
+    height: 300px;
+  }
+  .footer__logo-holder {
+    text-align: center;
   }
 }
