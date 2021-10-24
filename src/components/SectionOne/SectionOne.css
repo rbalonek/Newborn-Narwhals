@@ -17,7 +17,7 @@
 .sectionOne__text {
   display: flex;
   flex-direction: column;
-  /* text-align: center; */
+  text-align: center;
 }
 .sectionOne-collectable {
   font-size: 50px;
@@ -27,13 +27,14 @@
   position: relative;
   bottom: 70px;
   /* color: #6963ee; */
-  color: #7772f1;
+  /* color: #7772f1; */
+  color: #a71d31;
   -webkit-text-stroke-width: 0.5px;
   -webkit-text-stroke-color: black;
 }
 .sectionOne__text-nfts {
   position: relative;
-  bottom: 100px;
+  bottom: 120px;
   font-size: 25px;
 }
 
