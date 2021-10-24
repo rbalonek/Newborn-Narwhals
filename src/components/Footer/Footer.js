@@ -49,14 +49,14 @@ export default function Footer() {
         <div className="footer__nav">
           <p style={{ color: "#6963ee", height: "3px" }}>Follow us</p>
           <a
-            href="https://newborn-narwhals.netlify.app/"
+            href="https://twitter.com/newbornnarwhals"
             target="_blank"
             rel="noopener noreferrer"
           >
             <p>Twitter</p>
           </a>
           <a
-            href="https://newborn-narwhals.netlify.app/"
+            href="https://discord.com/invite/5dgtRRmSnh"
             target="_blank"
             rel="noopener noreferrer"
           >
